@@ -55,7 +55,6 @@
   }
 }
 
-
 .carousel-indicators li {
   width: 10px !important;
   height: 10px !important;
@@ -165,8 +164,6 @@
   }
 }
 
-
-
 .rodape {
   margin-top: 40px;
   padding: 30px;
@@ -188,8 +185,6 @@
     background-color: rgb(243, 243, 243);
   }
 }
-
-
 
 .endereco {
   font-size: 13px;
