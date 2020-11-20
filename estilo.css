@@ -1,0 +1,180 @@
+.header {
+  background-color: rgb(243, 243, 243);
+}
+
+.imagem-logo {
+  width: 130px;
+}
+
+.navbar-nav {
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-center {
+  display: block;
+  justify-content: center;
+}
+
+#telefone-menu {
+  background-color: rgb(255, 102, 0);
+  color: white !important;
+}
+
+.nav-link {
+  margin: 20px;
+}
+
+.descricao-carousel {
+  color: black;
+  margin-top: -20%;
+  margin-left: 175px;
+  text-align: left;
+}
+
+@media(max-width: 855px) {
+  .descricao-carousel {
+    color: black;
+    font-size: 15px;
+    text-align: left;
+  } 
+}
+
+@media(max-width: 855px) {
+  .imagem-conteudo {
+    width: 300px;
+  }
+}
+
+.imagem-conteudo {
+  width: 350px;
+}
+
+.titulo-empresa {
+  padding-top: 20px;
+  color: rgb(252, 122, 16);
+}
+
+.botao-saibamais {
+  margin-top: 10px;  
+  margin-left: 125px;
+  color: white;
+  background-color: rgb(255, 196, 0);
+  padding: 2px 15px;
+  border: 0px;
+}
+
+@media(max-width: 855px) {
+  .botao-saibamais {
+    margin-top: 10px;  
+    margin-left: 110px;
+  }
+}
+
+#botao-equipe {
+  color: white;
+  background-color: rgb(255, 196, 0);
+  padding: 2px 15px;
+  border: 0px;
+  transition: 3s;
+  transform: translateX(3) scale(1);
+}
+#botao-equipe:hover {
+  background-color: rgb(252, 122, 16);
+  transform: translateX(10px) scale(1.1);
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  justify-content: center;
+}
+
+.conteudo-time {
+  text-align: center;
+}
+
+@media(max-width: 855px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    justify-content: center;
+  }
+}
+
+#mb {
+  display: flex;
+}
+
+.imagem-equipe {
+  width: 270px;
+  padding: 10px;
+}
+
+.esconder {
+  display: none;
+  text-align: center;
+}
+
+.texto-dois {
+  display: grid;
+  grid-template-columns: repeat(1, 800px);
+  justify-content: center;
+}
+
+@media(max-width: 855px) {
+  .texto-dois {
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    justify-content: center;
+  } 
+}
+
+@media(min-width: 855px) {
+  .menu {
+    width: 800px;
+    margin: 0px auto;
+  }
+}
+
+
+
+.rodape {
+  margin-top: 40px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  gap: 100px;
+  background-color: rgb(243, 243, 243);
+}
+
+@media(max-width: 855px) {
+  .rodape {
+    margin-top: 40px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(243, 243, 243);
+  }
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  border: 1px solid black;
+  display: block;
+  position: relative;
+}
+.carousel-indicators .active {
+  background-color: rgb(46, 45, 45) !important;
+}
+
+
+.endereco {
+  font-size: 13px;
+}
